@@ -1,5 +1,6 @@
 travis_demo/.travis.yml
-language:C
+
+Language:C
 Sudo:False #only for faster build
 Compiler:gcc
 Script : -gcc-o file file.c
